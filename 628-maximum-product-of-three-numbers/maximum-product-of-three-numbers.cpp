@@ -4,8 +4,8 @@ public:
         int first, second, third; 
         int smallest, secondSmallest; 
         int prod1, prod2; 
-        smallest = secondSmallest = INT_MAX; 
-        first = second = third = INT_MIN;
+        smallest = secondSmallest = 1000; 
+        first = second = third = -1000;
 
         for(auto x : nums){
             if(x > first){
